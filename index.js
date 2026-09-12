@@ -130,4 +130,5 @@ client.on('interactionCreate', async interaction => {
     }
 });
 
-client.login('TON_TOKEN_BOT');
+client.login(process.env.TOKEN);
+
